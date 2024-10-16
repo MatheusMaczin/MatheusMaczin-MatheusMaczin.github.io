@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Consultar e Solicitar Disciplinas</title>
+    <link rel="stylesheet" href="Disciplina.css">
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <a href="#" class="logo">EduPortal</a>
+            <ul class="nav-links">
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="#">Classes</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>
+            <button class="logout">Logout</button>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="disciplinas-container">
+            <div class="disciplinas-lista">
+                <h2>Disciplinas Disponíveis</h2>
+                <ul>
+                    <li>Matemática - 9º Ano</li>
+                    <li>Português - 7º Ano</li>
+                    <li>História - 6º Ano</li>
+                    <li>Ciências - 8º Ano</li>
+                </ul>
+            </div>
+            <div class="solicitar-form">
+                <h2>Solicitar Disciplina</h2>
+            
+                    
+                    <label for="disciplina">Selecione a Disciplina</label>
+                    <select id="disciplina" name="disciplina" required>
+                        <option value="">Selecione</option>
+                        <option value="matematica">Matemática - 9º Ano</option>
+                        <option value="portugues">Português - 7º Ano</option>
+                        <option value="historia">História - 6º Ano</option>
+                        <option value="ciencias">Ciências - 8º Ano</option>
+                    </select>
+
+                    <button type="submit" class="submit-btn">Solicitar Inscrição</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 EduPortal. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

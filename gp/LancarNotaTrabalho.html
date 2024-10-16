@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Publicar Nota de Trabalho</title>
+    <link rel="stylesheet" href="LancarNotaTrabalho.css">
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <a href="#" class="logo">EduPortal</a>
+            <ul class="nav-links">
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="#">Classes</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>
+            <button class="logout">Logout</button>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h2>Publicar Nota de Trabalho</h2>
+        <form>
+            <label for="aluno">Selecionar Aluno</label>
+            <select id="aluno" name="aluno" required>
+                <option value="">Selecione</option>
+                <option value="aluno1">João da Silva</option>
+                <option value="aluno2">Maria Oliveira</option>
+                <option value="aluno3">Carlos Santos</option>
+                <option value="aluno4">Ana Paula</option>
+            </select>
+
+            <label for="trabalho">Selecionar Trabalho</label>
+            <select id="trabalho" name="trabalho" required>
+                <option value="">Selecione</option>
+                <option value="trabalho1">Trabalho 1 - História</option>
+                <option value="trabalho2">Trabalho 2 - Matemática</option>
+                <option value="trabalho3">Trabalho 3 - Ciências</option>
+            </select>
+
+            <label for="nota">Nota</label>
+            <input type="number" id="nota" name="nota" min="0" max="10" placeholder="Digite a nota" required>
+
+            <button type="submit" class="submit-btn">Publicar Nota</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 EduPortal. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Postar Plano de Aula</title>
+    <link rel="stylesheet" href="postarMaterial.css">
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <a href="#" class="logo">EduPortal</a>
+            <ul class="nav-links">
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="#">Classes</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>
+            <button class="logout">Logout</button>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="form-wrapper">
+            <h2>Postar Plano de Aula</h2>
+            <form>
+                <label for="materia">Selecionar Matéria</label>
+                <select id="materia">
+                    <option>Matemática</option>
+                    <option>História</option>
+                    <option>Geografia</option>
+                    <option>Física</option>
+                    <option>Química</option>
+                </select>
+
+                <label for="titulo">Título do Plano de Aula</label>
+                <input type="text" id="titulo" name="titulo" placeholder="Ex: Introdução à Física">
+
+                <label for="descricao">Descrição</label>
+                <textarea id="descricao" name="descricao" rows="4" placeholder="Descreva o plano de aula aqui..."></textarea>
+
+                <label for="arquivo">Anexar Arquivo</label>
+                <input type="file" id="arquivo" name="arquivo">
+
+                <button type="submit" class="submit-btn">Postar</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 EduPortal. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

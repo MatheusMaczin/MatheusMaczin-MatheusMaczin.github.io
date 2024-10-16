@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Publicar Presenças</title>
+    <link rel="stylesheet" href="publicarNotasProva.css">
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <a href="#" class="logo">EduPortal</a>
+            <ul class="nav-links">
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="#">Classes</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>
+            <button class="logout">Logout</button>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="form-wrapper">
+            <h2>Publicar Presenças</h2>
+            <form>
+                <label for="prova">Selecionar Dia</label>
+                <select id="prova">
+                    <option>18/02</option>
+                    <option>25/02</option>
+                    <option>04/03</option>
+                </select>
+
+                <label for="aluno">Selecionar Aluno</label>
+                <select id="aluno">
+                    <option>Aluno 1</option>
+                    <option>Aluno 2</option>
+                    <option>Aluno 3</option>
+                    <option>Aluno 4</option>
+                </select>
+
+                <label for="nota">Numero de Aulas</label>
+                <input type="number" id="nota" name="nota" placeholder="Ex: 4" min="0" max="10" step="0.1" >
+            </br></br>
+                <button type="submit" class="submit-btn">Publicar Presença</button>
+            </br>
+            </form>
+
+            <h3>Presenças</h3>
+            <table class="notas-tabela">
+                <thead>
+                    <tr>
+                        <th>Aluno</th>
+                        <th>11/02</th>
+						<th>18/02</th>
+						<th>25/02</th>
+                        <th>04/03</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Carlos Santos</td>
+                        <td> 4</td>
+                        <td> 4</td>
+						<td> 0</td>
+						<td> 4</td>
+                    </tr>
+                    <tr>
+                        <td>Ricardo Limas</td>
+                        <td> 0</td>
+                        <td> 0</td>
+						<td> 4</td>
+						<td> 4</td>
+                    </tr>
+                    <tr>
+                        <td>Kate Markson</td>
+                        <td> 4</td>
+                        <td> 4</td>
+						<td> 4</td>
+						<td> 4</td>
+                    </tr>
+                    <tr>
+                        <td>Iguazu G5</td>
+                        <td> 0</td>
+                        <td> 2</td>
+						<td> 1</td>
+						<td> 0</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 EduPortal. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html
