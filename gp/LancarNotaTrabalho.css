@@ -8,20 +8,26 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-image: url('/image/background-1829559_1920.png');
 }
 
 /* Cabeçalho */
 .header {
-    background-color: #f0f0f0;
-    padding: 1rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    background-color: #333;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: groove 1em rgb(11, 100, 100);
+  border-radius: 2em;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .header .logo {
     font-weight: bold;
-    color: #333;
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -33,16 +39,19 @@ body {
 
 .header .nav-links a {
     text-decoration: none;
-    color: #333;
+    color: #ffffff;
 }
 
 .logout {
-    background-color: #ff6b6b;
-    color: white;
-    border: none;
+    background-color: #eeeeee;
+    color: #0a0a0a;
     padding: 0.5rem 1rem;
+    border: none;
     border-radius: 5px;
     cursor: pointer;
+    position: absolute;
+    top: 60px;
+    left: 1100px;
 }
 
 /* Container Principal */
@@ -52,7 +61,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 2rem;
-    background-color: #f9f9f9;
+    
 }
 
 h2 {
@@ -62,7 +71,7 @@ h2 {
 
 form {
     background-color: white;
-    padding: 2rem;
+    padding: 10px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 100%;

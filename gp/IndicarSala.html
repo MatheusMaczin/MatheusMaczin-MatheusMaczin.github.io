@@ -1,72 +1,73 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Indicar Sala</title>
-    <link rel="stylesheet" href="IndicarSala.css">
-</head>
-<body>
+    <link rel="stylesheet" href="IndicarSala.css" />
+  </head>
+  <body>
     <header class="header">
-        <nav>
-            <a href="#" class="logo">EduPortal</a>
-            <ul class="nav-links">
-                <li><a href="#">Dashboard</a></li>
-                <li><a href="#">Classes</a></li>
-                <li><a href="#">Settings</a></li>
-            </ul>
-            <button class="logout">Logout</button>
-        </nav>
+      <nav>
+        <a href="#" class="logo">EduPortal</a>
+        <ul class="nav-links">
+          <li><a href="#">Dashboard</a></li>
+          <li><a href="#">Classes</a></li>
+          <li><a href="#">Settings</a></li>
+        </ul>
+        <button class="logout">Logout</button>
+      </nav>
     </header>
+    
+    <h2 class="sala">Indicar Sala</h2>
 
     <main class="container">
-        <h2>Indicar Sala</h2>
-        <form>
-            <label for="disciplina">Selecionar Disciplina</label>
-            <select id="disciplina" name="disciplina" required>
-                <option value="">Selecione</option>
-                <option value="matematica">Matemática - 10º Ano</option>
-                <option value="portugues">Português - 10º Ano</option>
-                <option value="ciencias">Ciências - 10º Ano</option>
-            </select>
+      <form>
+        <label for="disciplina">Selecionar Disciplina</label>
+        <select id="disciplina" name="disciplina" required>
+          <option value="">Selecione</option>
+          <option value="matematica">Matemática - 10º Ano</option>
+          <option value="portugues">Português - 10º Ano</option>
+          <option value="ciencias">Ciências - 10º Ano</option>
+        </select>
 
-            <label for="bloco">Selecionar Bloco</label>
-            <select id="bloco" name="bloco" required>
-                <option value="">Selecione</option>
-                <option value="bloco_a">Bloco A</option>
-                <option value="bloco_b">Bloco B</option>
-                <option value="bloco_c">Bloco C</option>
-            </select>
+        <label for="bloco">Selecionar Bloco</label>
+        <select id="bloco" name="bloco" required>
+          <option value="">Selecione</option>
+          <option value="bloco_a">Bloco A</option>
+          <option value="bloco_b">Bloco B</option>
+          <option value="bloco_c">Bloco C</option>
+        </select>
 
-            <label>Escolher Sala</label>
-            <div class="sala-selection">
-                <label>
-                    <input type="radio" name="sala" value="sala1" required>
-                    Sala 1
-                </label>
-                <label>
-                    <input type="radio" name="sala" value="sala2">
-                    Sala 2
-                </label>
-                <label>
-                    <input type="radio" name="sala" value="sala3">
-                    Sala 3
-                </label>
-                <label>
-                    <input type="radio" name="sala" value="sala4">
-                    Sala 4
-                </label>
-                <label>
-                    <input type="radio" name="sala" value="sala5">
-                    Sala 5
-                </label>
-            </div>
+        <label>Escolher Sala</label>
+        <div class="sala-selection">
+          <label>
+            <input type="radio" name="sala" value="sala1" required />
+            Sala 1
+          </label>
+          <label>
+            <input type="radio" name="sala" value="sala2" />
+            Sala 2
+          </label>
+          <label>
+            <input type="radio" name="sala" value="sala3" />
+            Sala 3
+          </label>
+          <label>
+            <input type="radio" name="sala" value="sala4" />
+            Sala 4
+          </label>
+          <label>
+            <input type="radio" name="sala" value="sala5" />
+            Sala 5
+          </label>
+        </div>
 
-            <button type="submit" class="submit-btn">Indicar Sala</button>
-        </form>
+        <button type="submit" class="submit-btn">Indicar Sala</button>
+      </form>
     </main>
 
     <footer>
-        <p>&copy; 2024 EduPortal. Todos os direitos reservados.</p>
+      <p>&copy; 2024 EduPortal. Todos os direitos reservados.</p>
     </footer>
-</body>
+  </body>
 </html>
